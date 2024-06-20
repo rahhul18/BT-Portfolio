@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Bootstrap links -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="index.css">
+<!-- Bootstrap icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<!-- Skills js file -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/jquery.lineProgressbar.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+<body>
+    <section class="main-header d-flex  d-sm-none d-md-none d-lg-block" id="home">
+        <div class="sidebar d-flex flex-column ">
+            <img src="img/img1.jpg" alt="">
+            <h2 class="text-center">Rahul Patil</h2>
+            <div class="social-link text-center mt-2">
+                <a href=""><i class="bi bi-twitter outline-none"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-skype"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+
+            <div class="navbar mt-3">
+                <ul>
+                    <li class="active"> <a href="#home" class="nav-link"><i class="bi bi-house-door"></i>HOME</a></li>
+
+                    <li><a href="#about" class="nav-link"><i class="bi bi-person"></i>ABOUT</a></li>
+
+                    <li> <a href="#resume" class="nav-link"><i class="bi bi-file-earmark"></i>RESUME</a></li>
+
+                    <li> <a href="#portfolio" class="nav-link"><i class="bi bi-journals"></i>PORTFOLIO</a></li>
+
+                    <li> <a href="#services" class="nav-link"><i class="bi bi-hdd-stack"></i>SERVICE</a></li>
+
+                    <li> <a href="#contacts" class="nav-link"><i class="bi bi-envelope"></i>CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="content">
+                <h2>Rahul Patil</h2>
+                <section class="cd-intro">
+                    <h1 class="cd-headline rotate-1">
+                        <span>i'm</span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">designer</b>
+                            <b>developer</b>
+                            <b>freelancer</b>
+                            <b>photographer</b>
+                        </span>
+                    </h1>
+                </section> <!-- cd-intro -->
+            </div>
+        </div>
+
+    </section>
+
+    <section class="tog d-sm-block d-md-block d-lg-none">
+        <div class="hero">
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="sidebar d-flex flex-column ">
+                    <img src="img/img1.jpg" alt="">
+                    <h2 class="text-center">Rahul Patil</h2>
+                    <div class="social-link text-center mt-2">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-skype"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+
+                    <div class="navbar mt-3">
+                        <ul>
+                            <li class="active"> <a href=""><i class="bi bi-house-door"></i>HOME</a></li>
+                            <li><a href=""><i class="bi bi-person"></i>ABOUT</a></li>
+                            <li> <a href=""><i class="bi bi-file-earmark"></i>RESUME</a></li>
+                            <li> <a href=""><i class="bi bi-journals"></i>PORTFOLIO</a></li>
+                            <li> <a href=""><i class="bi bi-hdd-stack"></i>SERVICE</a></li>
+                            <li> <a href=""><i class="bi bi-envelope"></i>CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="btn icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <span class="plus"></span>
+                <span class="plus1"></span>
+            </button>
+            <div class="content">
+                <h2>Rahul Patil</h2>
+                <section class="cd-intro">
+                    <h1 class="cd-headline rotate-1">
+                        <span>i'm</span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">designer</b>
+                            <b>developer</b>
+                            <b>freelancer</b>
+                            <b>photographer</b>
+                        </span>
+                    </h1>
+                </section> <!-- cd-intro -->
+            </div>
+        </div>
+    </section>
+
+    <div class="main mt-5">
+        <div class="about" id="about">
+            <div class="container">
+                <h2>About</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                <div class="row uiux mt-4 mb-4 d-flex justify-content-between">
+                    <div class="uiux-img col-lg-4 col-md-12">
+                        <img src="img/img1.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                    <div class="uiux-data col-lg-8 ">
+                        <h3>UI/UX Designer & Web Developer.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            utlabore et dolore magna aliqua.</p>
+
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 info">
+                                <ul class="ps-0">
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>Birthday:</b> 25 May 2002
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>Website:</b> www.example.com
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>Phone:</b> +91 6356994380
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>City:</b> Udhana, Surat
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-7 col-md-12 info">
+                                <ul class="ps-0">
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>Age:</b> 21
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>Degree:</b> Master
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>PhEmialOne: </b> 5304rahulp@gmail.com
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <b>Freelance:</b> Avialable
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <p>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
+                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
+                            itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
+                            culpa magni laudantium dolores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="facts">
+            <div class="container">
+                <h2>Facts</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <div class="counter row">
+                    <div class="fact-item col-lg-3 col-md-6 col-sm-12">
+                        <i class="bi bi-emoji-smile"></i>
+                        <div class="count-text">
+                            <div class="count">232</div>
+                            <p><b>Happy<br>Clients</b> <br>consequuntur <br>quae</p>
+                        </div>
+                    </div>
+                    <div class="fact-item col-lg-3 col-md-6 col-sm-12">
+                        <i class="bi bi-journal-album"></i>
+                        <div class="count-text">
+                            <div class="count">521</div>
+                            <p><b>Projects</b> <br>adipisci <br> atque cum <br> quia aut</p>
+                        </div>
+                    </div>
+                    <div class="fact-item col-lg-3 col-md-6 col-sm-12">
+                        <i class="bi bi-headset"></i>
+                        <div class="count-text">
+                            <div class="count">1453</div>
+                            <p><b>Hours Of</b><br> <b>Support</b> aut<br>commodi <br>quaerat</p>
+                        </div>
+                    </div>
+                    <div class="fact-item col-lg-3 col-md-6 col-sm-12">
+                        <i class="bi bi-people"></i>
+                        <div class="count-text">
+                            <div class="count">32</div>
+                            <p><b>Hard<br>Workers</b> <br>rerum<br>asperiores dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                <div class="row mt-5 mb-5 prog">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="html">
+                            <span>HTML</span>
+                            <div id="jq"></div>
+                        </div>
+                        <div class="html">
+                            <span>CSS</span>
+                            <div id="jp"></div>
+                        </div>
+                        <div class="html">
+                            <span>JAVASCRIPT</span>
+                            <div id="ji"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="html">
+                            <span>PHP</span>
+                            <div id="jr"></div>
+                        </div>
+                        <div class="html">
+                            <span>WORDPRESS/CMS</span>
+                            <div id="js"></div>
+                        </div>
+                        <div class="html">
+                            <span>PHOTOSHOP</span>
+                            <div id="jt"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume" id="resume">
+            <div class="container">
+                <h2>Resume</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="sumary">
+                            <h3 class="head-3">Sumary</h3>
+                            <div class="line">
+                                <div class="circle">
+                                    <h6 class="head-6">ALEX SMITH</h6>
+                                    <p>Innovative and deadline-driven Graphic Designer with 3+ years of experience
+                                        designing
+                                        and developing user-centered digital/print marketing material from initial
+                                        concept
+                                        to final, polished deliverable.</p>
+                                    <ul>
+                                        <li>Portland par 127,Orlando, FL</li>
+                                        <li>(123) 456-7891</li>
+                                        <li>alice.barkley@example.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="education">
+                            <h3 class="head-3">Education</h3>
+                            <div class="line">
+                                <div class="circle">
+                                    <h6 class="head-6">MASTER OF FINE ARTS & GRAPHIC DESIGN</h6>
+                                    <span class="year">2015-2016</span>
+                                    <br><br>
+                                    <i>Rochester Institute of Technology, Rochester, NY</i>
+                                    <br><br>
+                                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit.
+                                        Eavero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                                </div>
+                                <div class="circle">
+                                    <h6 class="head-6">BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h6>
+                                    <span class="year">2015-2016</span>
+                                    <br><br>
+                                    <i>Rochester Institute of Technology, Rochester, NY</i>
+                                    <br><br>
+                                    <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit.
+                                        Ea
+                                        vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="prof">
+                            <h3 class="head-3">Professional Experience</h3>
+                            <div class="line">
+                                <div class="circle">
+                                    <h6 class="head-6">SENIOR GRAPHIC DESIGN SPECIALIST</h6>
+                                    <span class="year">2019-Present</span>
+                                    <br><br>
+                                    <i>Experion, New York, NY</i>
+                                    <br><br>
+                                    <ul>
+                                        <li>
+                                            Lead in the design, development, and implementation of the graphic, layout,
+                                            and
+                                            production communication materialsx
+                                        </li>
+                                        <li>
+                                            Delegate tasks to the 7 members of the design team and provide counsel on
+                                            all
+                                            aspects of the project.
+                                        </li>
+                                        <li>
+                                            Supervise the assessment of all graphic materials in order to ensure quality
+                                            and
+                                            accuracy of the design
+                                        </li>
+                                        <li>
+                                            Oversee the efficient use of production project budgets ranging from $2,000
+                                            -
+                                            $25,000
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="circle">
+                                    <h6 class="head-6">GRAPHIC DESIGN SPECIALIST</h6>
+                                    <span class="year">2017-2018</span>
+                                    <br><br>
+                                    <i>Stepping Stone Advertising, New York, NY</i>
+                                    <br><br>
+                                    <ul>
+                                        <li>
+                                            Developed numerous marketing programs (logos, brochures,infographics,
+                                            presentations, and advertisements).
+                                        </li>
+                                        <li>
+                                            Managed up to 5 projects or tasks at a given time while under pressure
+                                        </li>
+                                        <li>
+                                            Recommended and consulted with clients on the most appropriate graphic
+                                            design
+                                        </li>
+                                        <li>
+                                            Created 4+ design presentations and proposals a month for clients and
+                                            account
+                                            managers
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <div class="container pt-5 pb-5">
+                <h2>Portfolio</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                <div class="navtab  d-flex justify-content-center">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <button class="nav-link active act" data-bs-toggle="tab" data-bs-target="#all">ALL</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#app">APP</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#card">CARD</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#web">WEB</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content mt-3">
+                    <div class="tab-pane fade show active" id="all">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i1.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i2.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i3.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i4.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i5.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i6.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i7.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i8.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i9.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="app">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i1.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i3.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i6.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="card">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i4.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i7.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i8.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="web">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i2.jpg" class="img-fluid w-100 " alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i5.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 images">
+                                <img src="img/i9.jpg" class="img-fluid w-100" alt="">
+                                <div class="btn-group buton" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-plus"></i></button>
+                                    <button type="button" class="btn btn-primary"><i class="bi bi-link"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="services" id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 icon-box">
+                        <div class="icn">
+                            <i class="bi bi-briefcase"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href=""> lorem ipsum</a>
+                        </h4>
+                        <p class="description">
+                            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                            cupiditate non provident
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 icon-box">
+                        <div class="icn">
+                            <i class="bi bi-card-checklist"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href=""> Dolor Sitema</a>
+                        </h4>
+                        <p class="description">
+                            Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat tarad limino ata
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 icon-box">
+                        <div class="icn">
+                            <i class="bi bi-bar-chart"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href=""> Sed ut perspiciatis </a>
+                        </h4>
+                        <p class="description">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 icon-box">
+                        <div class="icn">
+                            <i class="bi bi-binoculars"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href=""> Magni Dolores</a>
+                        </h4>
+                        <p class="description">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 icon-box">
+                        <div class="icn">
+                            <i class="bi bi-brightness-high"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href=""> Nemo Enim</a>
+                        </h4>
+                        <p class="description">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum deleniti atque
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 icon-box">
+                        <div class="icn">
+                            <i class="bi bi-calendar-week"></i>
+                        </div>
+                        <h4 class="title">
+                            <a href=""> Eiusmod Tempor</a>
+                        </h4>
+                        <p class="description">
+                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
+                            nobis est eligendi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial" id="testimonial">
+            <div class="container">
+                <h2>Testimonial</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                   
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide pt-3" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-1.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Saul Goodman</h3>
+                                        <span>Ceo & Founder</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-2.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Sara Willsom</h3>
+                                        <span>Designer</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-3.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Jenna Karlis</h3>
+                                        <span>Store Owner</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-2.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Sara Willsom</h3>
+                                        <span>Designer</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-3.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Jenna Karlis</h3>
+                                        <span>Store Owner</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-4.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Matt Brandon</h3>
+                                        <span>freelancer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-3.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Saul Goodman</h3>
+                                        <span>Ceo & Founder</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-4.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Matt Brandon</h3>
+                                        <span>freelancer</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-5.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>John Larsen</h3>
+                                        <span>Entrepreneur</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-4.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Matt Brandon</h3>
+                                        <span>freelancer</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-5.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>John Larsen</h3>
+                                        <span>Entrepreneur</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-1.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Saul Goodman</h3>
+                                        <span>Ceo & Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-5.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>John Larsen</h3>
+                                        <span>Entrepreneur</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-1.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Saul Goodman</h3>
+                                        <span>Ceo & Founder</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 d-sm-none d-md-none d-lg-block testimonial-item">
+                                    <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, magni eius id
+                                        vel ipsam odit! Cupiditate in ratione deserunt reiciendis veritatis quae, est
+                                        quasi odio optio cum, libero hic labore."</p>
+
+                                    <img src="img/testimonials-2.jpg" alt="">
+                                    <div class="img-data text-center">
+                                        <h3>Sara Willsom</h3>
+                                        <span>Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="contacts" id="contacts">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+                <div class="container">
+                    <div class="row d-flex justify-content-evenly">
+                        <div class="col-lg-5 contact-main">
+                            <div class=" cont-box">
+                                <div class="cont">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <h4>Location: </h4>
+                                <p>
+                                    A108 Adam Street, New York, NY 535022
+                                </p>
+                            </div>
+
+                            <div class=" cont-box">
+                                <div class="cont">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <h4>Email:
+                                </h4>
+                                <p>
+                                    info@example.com
+                                </p>
+                            </div>
+
+                            <div class=" cont-box">
+                                <div class="cont">
+                                    <i class="bi bi-phone"></i>
+                                </div>
+                                <h4 >
+                                    Call:
+                                </h4>
+                                <p>
+                                    +1 5589 55488 55s
+                                </p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2505975156196!2d72.87893757397546!3d21.14242318386743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be051c06d87ab17%3A0x809cd984bd5b6d6d!2sRed%20%26%20White%20Multimedia%20Education%20-%20Dindoli!5e0!3m2!1sen!2sin!4v1697019517598!5m2!1sen!2sin" width="100%" height="290" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                        <div class="col-lg-6 contact-main">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-lg-6 form-group">
+                                        <label for="name">Your Name</label>
+                                        <input type="text">
+                                    </div>
+                                    <div class="col-lg-6 form-group">
+                                        <label for="name">Your Email</label>
+                                        <input type="gmail">
+                                    </div>
+                                </div>
+
+                                <div class="form-group my-3">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="w-100">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">Message</label>
+                                    <textarea name="text" id=""  rows="10" class="w-100"></textarea>
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="form-button">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/jquery.lineProgressbar.js"></script>
+        <script src="js/LineProgressbar.jquery.json"></script>
+
+        <script src="index.js">
+
+
+        </script>
+</body>
+
+</html>
